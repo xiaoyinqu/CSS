@@ -15,6 +15,8 @@
 		9D27C4371AAC106000477EEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D27C4361AAC106000477EEF /* Images.xcassets */; };
 		9D27C43A1AAC106000477EEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D27C4381AAC106000477EEF /* LaunchScreen.xib */; };
 		9D27C4461AAC106000477EEF /* trialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D27C4451AAC106000477EEF /* trialTests.m */; };
+		9D51EA211AC36D1C00CBEA9B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D51EA201AC36D1C00CBEA9B /* MapViewController.m */; };
+		9DEF192D1AC52015000C3CA2 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEF192C1AC52015000C3CA2 /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9D27C4231AAC106000477EEF /* trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D27C4231AAC106000477EEF /* CSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D27C4271AAC106000477EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D27C4281AAC106000477EEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D27C42A1AAC106000477EEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,9 +41,12 @@
 		9D27C4341AAC106000477EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D27C4361AAC106000477EEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9D27C4391AAC106000477EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9D27C43F1AAC106000477EEF /* trialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D27C43F1AAC106000477EEF /* CSSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D27C4441AAC106000477EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D27C4451AAC106000477EEF /* trialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trialTests.m; sourceTree = "<group>"; };
+		9D51EA1F1AC36D1C00CBEA9B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9D51EA201AC36D1C00CBEA9B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		9DEF192C1AC52015000C3CA2 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +79,8 @@
 		9D27C4241AAC106000477EEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D27C4231AAC106000477EEF /* trial.app */,
-				9D27C43F1AAC106000477EEF /* trialTests.xctest */,
+				9D27C4231AAC106000477EEF /* CSS.app */,
+				9D27C43F1AAC106000477EEF /* CSSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,9 +93,12 @@
 				9D27C4301AAC106000477EEF /* ViewController.h */,
 				9D27C4311AAC106000477EEF /* ViewController.m */,
 				9D27C4331AAC106000477EEF /* Main.storyboard */,
+				9D51EA1F1AC36D1C00CBEA9B /* MapViewController.h */,
+				9D51EA201AC36D1C00CBEA9B /* MapViewController.m */,
 				9D27C4361AAC106000477EEF /* Images.xcassets */,
 				9D27C4381AAC106000477EEF /* LaunchScreen.xib */,
 				9D27C42D1AAC106000477EEF /* trial.xcdatamodeld */,
+				9DEF192C1AC52015000C3CA2 /* Images-2.xcassets */,
 				9D27C4261AAC106000477EEF /* Supporting Files */,
 			);
 			path = trial;
@@ -125,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D27C4221AAC106000477EEF /* trial */ = {
+		9D27C4221AAC106000477EEF /* CSS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D27C4491AAC106000477EEF /* Build configuration list for PBXNativeTarget "trial" */;
+			buildConfigurationList = 9D27C4491AAC106000477EEF /* Build configuration list for PBXNativeTarget "CSS" */;
 			buildPhases = (
 				9D27C41F1AAC106000477EEF /* Sources */,
 				9D27C4201AAC106000477EEF /* Frameworks */,
@@ -137,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = trial;
+			name = CSS;
 			productName = trial;
-			productReference = 9D27C4231AAC106000477EEF /* trial.app */;
+			productReference = 9D27C4231AAC106000477EEF /* CSS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9D27C43E1AAC106000477EEF /* trialTests */ = {
+		9D27C43E1AAC106000477EEF /* CSSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D27C44C1AAC106000477EEF /* Build configuration list for PBXNativeTarget "trialTests" */;
+			buildConfigurationList = 9D27C44C1AAC106000477EEF /* Build configuration list for PBXNativeTarget "CSSTests" */;
 			buildPhases = (
 				9D27C43B1AAC106000477EEF /* Sources */,
 				9D27C43C1AAC106000477EEF /* Frameworks */,
@@ -155,9 +163,9 @@
 			dependencies = (
 				9D27C4411AAC106000477EEF /* PBXTargetDependency */,
 			);
-			name = trialTests;
+			name = CSSTests;
 			productName = trialTests;
-			productReference = 9D27C43F1AAC106000477EEF /* trialTests.xctest */;
+			productReference = 9D27C43F1AAC106000477EEF /* CSSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -171,6 +179,7 @@
 				TargetAttributes = {
 					9D27C4221AAC106000477EEF = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 422M5JWED5;
 					};
 					9D27C43E1AAC106000477EEF = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -178,7 +187,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9D27C41E1AAC106000477EEF /* Build configuration list for PBXProject "trial" */;
+			buildConfigurationList = 9D27C41E1AAC106000477EEF /* Build configuration list for PBXProject "CSS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,8 +200,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D27C4221AAC106000477EEF /* trial */,
-				9D27C43E1AAC106000477EEF /* trialTests */,
+				9D27C4221AAC106000477EEF /* CSS */,
+				9D27C43E1AAC106000477EEF /* CSSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,6 +213,7 @@
 			files = (
 				9D27C4351AAC106000477EEF /* Main.storyboard in Resources */,
 				9D27C43A1AAC106000477EEF /* LaunchScreen.xib in Resources */,
+				9DEF192D1AC52015000C3CA2 /* Images-2.xcassets in Resources */,
 				9D27C4371AAC106000477EEF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +234,7 @@
 			files = (
 				9D27C42C1AAC106000477EEF /* AppDelegate.m in Sources */,
 				9D27C4291AAC106000477EEF /* main.m in Sources */,
+				9D51EA211AC36D1C00CBEA9B /* MapViewController.m in Sources */,
 				9D27C4321AAC106000477EEF /* ViewController.m in Sources */,
 				9D27C42F1AAC106000477EEF /* trial.xcdatamodeld in Sources */,
 			);
@@ -242,7 +253,7 @@
 /* Begin PBXTargetDependency section */
 		9D27C4411AAC106000477EEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9D27C4221AAC106000477EEF /* trial */;
+			target = 9D27C4221AAC106000477EEF /* CSS */;
 			targetProxy = 9D27C4401AAC106000477EEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -347,9 +358,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = trial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CSS;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +372,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = trial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CSS;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -377,8 +396,8 @@
 				);
 				INFOPLIST_FILE = trialTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trial.app/trial";
+				PRODUCT_NAME = CSSTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/css.app/css";
 			};
 			name = Debug;
 		};
@@ -392,15 +411,15 @@
 				);
 				INFOPLIST_FILE = trialTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trial.app/trial";
+				PRODUCT_NAME = CSSTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/css.app/css";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D27C41E1AAC106000477EEF /* Build configuration list for PBXProject "trial" */ = {
+		9D27C41E1AAC106000477EEF /* Build configuration list for PBXProject "CSS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D27C4471AAC106000477EEF /* Debug */,
@@ -409,7 +428,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D27C4491AAC106000477EEF /* Build configuration list for PBXNativeTarget "trial" */ = {
+		9D27C4491AAC106000477EEF /* Build configuration list for PBXNativeTarget "CSS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D27C44A1AAC106000477EEF /* Debug */,
@@ -418,7 +437,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D27C44C1AAC106000477EEF /* Build configuration list for PBXNativeTarget "trialTests" */ = {
+		9D27C44C1AAC106000477EEF /* Build configuration list for PBXNativeTarget "CSSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D27C44D1AAC106000477EEF /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9D27C4221AAC106000477EEF"
-               BuildableName = "trial.app"
-               BlueprintName = "trial"
-               ReferencedContainer = "container:trial.xcodeproj">
+               BuildableName = "CSS.app"
+               BlueprintName = "CSS"
+               ReferencedContainer = "container:CSS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9D27C43E1AAC106000477EEF"
-               BuildableName = "trialTests.xctest"
-               BlueprintName = "trialTests"
-               ReferencedContainer = "container:trial.xcodeproj">
+               BuildableName = "CSSTests.xctest"
+               BlueprintName = "CSSTests"
+               ReferencedContainer = "container:CSS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9D27C43E1AAC106000477EEF"
-               BuildableName = "trialTests.xctest"
-               BlueprintName = "trialTests"
-               ReferencedContainer = "container:trial.xcodeproj">
+               BuildableName = "CSSTests.xctest"
+               BlueprintName = "CSSTests"
+               ReferencedContainer = "container:CSS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D27C4221AAC106000477EEF"
-            BuildableName = "trial.app"
-            BlueprintName = "trial"
-            ReferencedContainer = "container:trial.xcodeproj">
+            BuildableName = "CSS.app"
+            BlueprintName = "CSS"
+            ReferencedContainer = "container:CSS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,13 +72,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D27C4221AAC106000477EEF"
-            BuildableName = "trial.app"
-            BlueprintName = "trial"
-            ReferencedContainer = "container:trial.xcodeproj">
+            BuildableName = "CSS.app"
+            BlueprintName = "CSS"
+            ReferencedContainer = "container:CSS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -90,13 +91,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D27C4221AAC106000477EEF"
-            BuildableName = "trial.app"
-            BlueprintName = "trial"
-            ReferencedContainer = "container:trial.xcodeproj">
+            BuildableName = "CSS.app"
+            BlueprintName = "CSS"
+            ReferencedContainer = "container:CSS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
