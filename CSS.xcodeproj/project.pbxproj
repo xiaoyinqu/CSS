@@ -16,6 +16,11 @@
 		9D27C43A1AAC106000477EEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D27C4381AAC106000477EEF /* LaunchScreen.xib */; };
 		9D27C4461AAC106000477EEF /* trialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D27C4451AAC106000477EEF /* trialTests.m */; };
 		9D51EA211AC36D1C00CBEA9B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D51EA201AC36D1C00CBEA9B /* MapViewController.m */; };
+		9DB590651AE1A83C00D95911 /* OrganizationListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB590641AE1A83C00D95911 /* OrganizationListTableViewController.m */; };
+		9DB590681AE1A8F500D95911 /* OrganizationListTableCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB590671AE1A8F500D95911 /* OrganizationListTableCellTableViewCell.m */; };
+		9DB5906B1AE1A99100D95911 /* OrganizationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5906A1AE1A99100D95911 /* OrganizationDetailViewController.m */; };
+		9DB5906D1AE1BBDA00D95911 /* directory.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9DB5906C1AE1BBDA00D95911 /* directory.csv */; };
+		9DB590701AE1BC7200D95911 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5906F1AE1BC7200D95911 /* CategoryViewController.m */; };
 		9DEF192D1AC52015000C3CA2 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEF192C1AC52015000C3CA2 /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +51,15 @@
 		9D27C4451AAC106000477EEF /* trialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = trialTests.m; sourceTree = "<group>"; };
 		9D51EA1F1AC36D1C00CBEA9B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		9D51EA201AC36D1C00CBEA9B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		9DB590631AE1A83C00D95911 /* OrganizationListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizationListTableViewController.h; sourceTree = "<group>"; };
+		9DB590641AE1A83C00D95911 /* OrganizationListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizationListTableViewController.m; sourceTree = "<group>"; };
+		9DB590661AE1A8F500D95911 /* OrganizationListTableCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizationListTableCellTableViewCell.h; sourceTree = "<group>"; };
+		9DB590671AE1A8F500D95911 /* OrganizationListTableCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizationListTableCellTableViewCell.m; sourceTree = "<group>"; };
+		9DB590691AE1A99100D95911 /* OrganizationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrganizationDetailViewController.h; path = ../OrganizationDetailViewController.h; sourceTree = "<group>"; };
+		9DB5906A1AE1A99100D95911 /* OrganizationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrganizationDetailViewController.m; path = ../OrganizationDetailViewController.m; sourceTree = "<group>"; };
+		9DB5906C1AE1BBDA00D95911 /* directory.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = directory.csv; path = ../../directory.csv; sourceTree = "<group>"; };
+		9DB5906E1AE1BC7200D95911 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		9DB5906F1AE1BC7200D95911 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
 		9DEF192C1AC52015000C3CA2 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,16 +102,25 @@
 		9D27C4251AAC106000477EEF /* trial */ = {
 			isa = PBXGroup;
 			children = (
+				9DB5906C1AE1BBDA00D95911 /* directory.csv */,
+				9DB590691AE1A99100D95911 /* OrganizationDetailViewController.h */,
+				9DB5906A1AE1A99100D95911 /* OrganizationDetailViewController.m */,
 				9D27C42A1AAC106000477EEF /* AppDelegate.h */,
 				9D27C42B1AAC106000477EEF /* AppDelegate.m */,
 				9D27C4301AAC106000477EEF /* ViewController.h */,
 				9D27C4311AAC106000477EEF /* ViewController.m */,
 				9D27C4331AAC106000477EEF /* Main.storyboard */,
+				9DB5906E1AE1BC7200D95911 /* CategoryViewController.h */,
+				9DB5906F1AE1BC7200D95911 /* CategoryViewController.m */,
+				9DB590661AE1A8F500D95911 /* OrganizationListTableCellTableViewCell.h */,
+				9DB590671AE1A8F500D95911 /* OrganizationListTableCellTableViewCell.m */,
 				9D51EA1F1AC36D1C00CBEA9B /* MapViewController.h */,
 				9D51EA201AC36D1C00CBEA9B /* MapViewController.m */,
 				9D27C4361AAC106000477EEF /* Images.xcassets */,
 				9D27C4381AAC106000477EEF /* LaunchScreen.xib */,
 				9D27C42D1AAC106000477EEF /* trial.xcdatamodeld */,
+				9DB590631AE1A83C00D95911 /* OrganizationListTableViewController.h */,
+				9DB590641AE1A83C00D95911 /* OrganizationListTableViewController.m */,
 				9DEF192C1AC52015000C3CA2 /* Images-2.xcassets */,
 				9D27C4261AAC106000477EEF /* Supporting Files */,
 			);
@@ -215,6 +238,7 @@
 				9D27C43A1AAC106000477EEF /* LaunchScreen.xib in Resources */,
 				9DEF192D1AC52015000C3CA2 /* Images-2.xcassets in Resources */,
 				9D27C4371AAC106000477EEF /* Images.xcassets in Resources */,
+				9DB5906D1AE1BBDA00D95911 /* directory.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,8 +256,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB590681AE1A8F500D95911 /* OrganizationListTableCellTableViewCell.m in Sources */,
+				9DB590651AE1A83C00D95911 /* OrganizationListTableViewController.m in Sources */,
 				9D27C42C1AAC106000477EEF /* AppDelegate.m in Sources */,
 				9D27C4291AAC106000477EEF /* main.m in Sources */,
+				9DB590701AE1BC7200D95911 /* CategoryViewController.m in Sources */,
+				9DB5906B1AE1A99100D95911 /* OrganizationDetailViewController.m in Sources */,
 				9D51EA211AC36D1C00CBEA9B /* MapViewController.m in Sources */,
 				9D27C4321AAC106000477EEF /* ViewController.m in Sources */,
 				9D27C42F1AAC106000477EEF /* trial.xcdatamodeld in Sources */,
