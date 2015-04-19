@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OrganizationListTableViewController : UITableViewController
+@interface OrganizationListTableViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate>
+@property (strong, nonatomic) IBOutlet UITableView *feedtableview;
 
 @end

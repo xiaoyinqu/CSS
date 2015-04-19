@@ -7,6 +7,9 @@
 //
 
 #import "OrganizationListTableViewController.h"
+#import "OrganizationListTableCellTableViewCell.h"
+#import <CoreData/CoreData.h>
+#import <stdlib.h>
 
 @interface OrganizationListTableViewController ()
 
